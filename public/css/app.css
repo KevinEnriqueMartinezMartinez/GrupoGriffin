@@ -1,0 +1,31 @@
+body{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.card {
+    border: 1px solid #007bff; /* Color del borde */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Escalar ligeramente la tarjeta */
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.5); /* Sombra al pasar el cursor */
+}
+
+.card img {
+    border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+}
+
+.card-body {
+    border-top: 1px solid #007bff; /* Borde superior en el cuerpo de la tarjeta */
+    padding: 1.5rem; /* Espaciado interno */
+}
